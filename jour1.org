@@ -1,0 +1,45 @@
+--- Jour 1: Hystérie historien ---
+
+L'Historien en chef est toujours présent pour le grand sleigh, mais personne ne l'a vu depuis des mois. Dernier jour, il se rendait dans des endroits qui sont historiquement importants pour le pôle Nord; un groupe d'historiens aînés vous a demandé de les accompagner en vérétant les endroits où ils pensent qu'il était le plus susceptible de visiter.
+
+Au fur et à mesure que chaque emplacement est vérifié, ils le marqueront sur leur liste avec une étoile. Ils pensent que l'historien en chef doit être dans l'une des cinquante premières places qu'ils regarderont, donc pour sauver les fêtes de fin d'année, vous devez les aider à obtenir cinquante étoiles sur leur liste avant le départ du Père Noel le 25 décembre.
+
+Recueillir des étoiles en résolvant des énigmes. Deux énigmes seront mises à disposition chaque jour dans le calendrier de l'Avent; le deuxième casse-tête est déverrouillé lorsque vous terminez le premier. Chaque énigme accorde une étoile. Bonne chance.
+
+Vous ne l'avez même pas encore quitté et le groupe des historiens seniors d'Elfique a déjà frappé un problème : leur liste d'emplacements à vérifier est actuellement vide. Finalement, quelqu'un décide que le meilleur endroit pour vérifier en premier serait le bureau de l'historien en chef.
+
+En déversant dans le bureau, tout le monde confirme que l'historien en chef n'est en effet nulle part à trouver. Au lieu de cela, les Elfes découvrent un assortiment de notes et de listes d'endroits historiquement importants. Cela semble être la planification que l'historien en chef faisait avant de partir. Ces notes peuvent-elles être utilisées pour déterminer les emplacements à rechercher?
+
+Dans l'ensemble du bureau du chef, les lieux d'affectation historiquement importants ne sont pas classés par nom mais par un numéro unique appelé ID de localisation. Pour s'assurer qu'ils ne ratent rien, les Historiens se sont scindés en deux groupes, chacun effectuant des recherches dans le bureau et essayant de créer leur propre liste complète d'identifiants de localisation.
+
+Il n'y a qu'un problème : en tenant les deux listes côte à côte (votre entrée de casse-tête), il devient rapidement clair que les listes ne sont pas très similaires. Peut-être pouvez-vous aider les Historiens à réconcilier leurs listes ?
+
+Par exemple:
+
+3   4
+4   3
+2   5
+1   3
+3   9
+3   3
+
+Peut-être que les listes ne sont qu'une petite quantité. Pour le savoir, associez les nombres et mesurez à quel point ils sont éloignés. Associez le plus petit nombre dans la liste de gauche avec le plus petit nombre dans la liste de droite, puis le deuxième plus petit nombre restant avec le deuxième-petit numéro droit, et ainsi de suite.
+
+Au sein de chaque paire, trouver combien loin sont-il éloignés les deux nombres sont; vous aurez besoin de additionner toutes ces distances. Par exemple, si vous associez un 3 de la liste de gauche avec un 7 de la bonne liste, la distance à l'écart est 4; si vous associez un 9 avec un 3, la distance à l'écart est 6.
+
+Dans la liste des exemples ci-dessus, les paires et distances seraient les suivantes:
+
+    Le plus petit nombre dans la liste de gauche est 1, et le plus petit nombre dans la bonne liste est 3. La distance entre eux est 2.
+    Le deuxième plus petit nombre de la liste de gauche est 2, et le deuxième plus petit nombre dans la bonne liste est un autre 3. La distance entre eux est 1.
+    Le troisième plus petit nombre dans les deux listes est 3, donc la distance entre eux est 0.
+    Les nombres suivants à coupler sont 3 et 4, une distance de 1.
+    Les cinquième plus petits nombres dans chaque liste sont les plus faibles. 3 et 5, une distance de 2.
+    Enfin, le plus grand nombre dans la liste de gauche est 4, alors que le plus grand nombre dans la bonne liste est 9; il s'agit d'une distance 5 à part.
+
+Pour trouver le distance totale entre la liste de gauche et la liste de droite, additionnez les distances entre toutes les paires que vous avez trouvées. Dans l'exemple ci-dessus, il s'agit 2 + 1 + 0 + 1 + 2 + 5, une distance totale de 11-
+
+Vos listes de gauche et de droite réelles contiennent de nombreux identifiants de localisation. Quelle est la distance totale entre vos listes ?
+
+Pour commencer, obtenez votre jeu d'énigmes.
+
+Réponse : 
