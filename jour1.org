@@ -38,8 +38,6 @@ Dans la liste des exemples ci-dessus, les paires et distances seraient les suiva
 
 Pour trouver le distance totale entre la liste de gauche et la liste de droite, additionnez les distances entre toutes les paires que vous avez trouvées. Dans l'exemple ci-dessus, il s'agit 2 + 1 + 0 + 1 + 2 + 5, une distance totale de 11-
 
-Vos listes de gauche et de droite réelles contiennent de nombreux identifiants de localisation. Quelle est la distance totale entre vos listes ?
+Vos listes de gauche et de droite réelles contiennent de nombreux identifiants de localisation. Quelle est la distance totale 
 
-Pour commencer, obtenez votre jeu d'énigmes.
-
-Réponse : 
+Réponse : 2375403
